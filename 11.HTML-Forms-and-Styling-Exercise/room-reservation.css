@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+main {
+    margin: 0 60px 0 60px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    background-color: #F1F1F1;
+    color: #2C9FE4;
+    font-size: 28px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+section.basic-information {
+    border-bottom: 1px solid  #E4E4E4;
+    border-bottom-style: dotted;
+    height: 90px;
+}
+
+section h1 {
+    font-size: 16px;
+}
+
+section p {
+    width: 70%;
+    float: left;
+}
+
+.search-box {
+    position: inherit;
+    font-weight: bold;
+    display: block;
+    float: right;
+}
+
+form.personal-details {
+    position: absolute;
+    float: left;
+    display: block;
+    width: 30%;
+}
+
+.personal-details div {
+    margin-top: 10px;
+
+}
+
+.personal-details > div > input {
+    padding: 3px;
+}
+
+form h1 {
+    font-size: 16px;
+}
+
+form, select {
+    display: inline-block;
+}
+
+.reservation-request {
+    position: absolute;
+}

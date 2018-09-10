@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 0 0 20px #45d4d5;
+}
+
+img {
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+
+form {
+    margin-left: 20px;
+    display: inline-block;
+    height: 600px;
+}
+
+.name {
+    font-family: Anton, sans-serif;
+    font-size: 3em;
+}
+
+.price {
+    font-family: Anton, sans-serif;
+    font-size: 2em;
+}
+
+.shoe-size {
+    display: block;
+    margin-left: 20px;
+    width: 210px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #42CACA;
+    color: #FFFFFF;
+    text-indent: 1px;
+    text-overflow: '';
+    border: none;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+form input {
+    display: block;
+    border: none;
+    border-bottom: 5px solid #42CACA;
+    width: 210px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+form button {
+    border: 3px solid #42CACA;
+    border-radius: 20px;
+    background: none;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+    color: #42CACA;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+form button:hover {
+    color: #FFFFFF;
+    background-color: #42c9ca;
+    cursor: pointer;
+    outline: none;
+}
